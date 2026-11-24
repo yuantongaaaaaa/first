@@ -3,7 +3,8 @@ project(first C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(first main.c test1.h)
+add_executable(first main.c test1.h
+        20141101C1/b.c)
 target_link_libraries(first test1)
 
 add_executable(test test.c test1.h)
